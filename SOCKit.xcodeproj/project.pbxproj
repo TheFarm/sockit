@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16BA44DC231E5822005C3712 /* SOCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BA44C6231E4994005C3712 /* SOCKit.h */; };
-		16BA44DD231E5824005C3712 /* SOCPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0935D91E8031930092BF67 /* SOCPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BA44DC231E5822005C3712 /* SOCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BA44C6231E4994005C3712 /* SOCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BA44DD231E5824005C3712 /* SOCPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0935D91E8031930092BF67 /* SOCPattern.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		16BA44DE231E582A005C3712 /* SOCPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0935DA1E8031930092BF67 /* SOCPattern.m */; };
 		FE0935F11E80325C0092BF67 /* SOCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0935DC1E8031930092BF67 /* SOCKitTests.m */; };
 /* End PBXBuildFile section */
