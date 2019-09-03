@@ -41,21 +41,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16BA44C5231E4994005C3712 /* SOCKit */ = {
-			isa = PBXGroup;
-			children = (
-				16BA44C6231E4994005C3712 /* SOCKit.h */,
-				16BA44C7231E4994005C3712 /* Info.plist */,
-			);
-			path = SOCKit;
-			sourceTree = "<group>";
-		};
 		FE0935C21E8030B60092BF67 = {
 			isa = PBXGroup;
 			children = (
 				FE0935D71E8031930092BF67 /* src */,
 				FE0935DB1E8031930092BF67 /* tests */,
-				16BA44C5231E4994005C3712 /* SOCKit */,
 				FE0935CD1E8030B60092BF67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +62,8 @@
 		FE0935D71E8031930092BF67 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				16BA44C6231E4994005C3712 /* SOCKit.h */,
+				16BA44C7231E4994005C3712 /* Info.plist */,
 				FE0935D91E8031930092BF67 /* SOCPattern.h */,
 				FE0935DA1E8031930092BF67 /* SOCPattern.m */,
 			);
@@ -226,7 +218,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SOCKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -254,7 +246,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SOCKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

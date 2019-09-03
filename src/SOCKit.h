@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for SOCKit.
 FOUNDATION_EXPORT double SOCKitVersionNumber;
