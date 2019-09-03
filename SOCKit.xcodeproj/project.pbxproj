@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16BA44C8231E4994005C3712 /* SOCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BA44C6231E4994005C3712 /* SOCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16BA44CC231E4A7D005C3712 /* SOCPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0935DA1E8031930092BF67 /* SOCPattern.m */; };
-		16BA44CD231E4AB9005C3712 /* SOCPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0935D91E8031930092BF67 /* SOCPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BA44DC231E5822005C3712 /* SOCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BA44C6231E4994005C3712 /* SOCKit.h */; };
+		16BA44DD231E5824005C3712 /* SOCPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0935D91E8031930092BF67 /* SOCPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BA44DE231E582A005C3712 /* SOCPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0935DA1E8031930092BF67 /* SOCPattern.m */; };
 		FE0935F11E80325C0092BF67 /* SOCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0935DC1E8031930092BF67 /* SOCKitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16BA44C4231E4994005C3712 /* SOCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BA44C6231E4994005C3712 /* SOCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOCKit.h; sourceTree = "<group>"; };
 		16BA44C7231E4994005C3712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BA44D4231E5805005C3712 /* SOCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SOCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0935D91E8031930092BF67 /* SOCPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCPattern.h; sourceTree = "<group>"; };
 		FE0935DA1E8031930092BF67 /* SOCPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCPattern.m; sourceTree = "<group>"; };
 		FE0935DC1E8031930092BF67 /* SOCKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCKitTests.m; sourceTree = "<group>"; };
@@ -24,7 +24,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16BA44C1231E4994005C3712 /* Frameworks */ = {
+		16BA44D1231E5805005C3712 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,11 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16BA44D5231E5805005C3712 /* SOCKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SOCKit;
+			sourceTree = "<group>";
+		};
 		FE0935C21E8030B60092BF67 = {
 			isa = PBXGroup;
 			children = (
 				FE0935D71E8031930092BF67 /* src */,
 				FE0935DB1E8031930092BF67 /* tests */,
+				16BA44D5231E5805005C3712 /* SOCKit */,
 				FE0935CD1E8030B60092BF67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				FE0935E51E8031F10092BF67 /* SOCKit.xctest */,
-				16BA44C4231E4994005C3712 /* SOCKit.framework */,
+				16BA44D4231E5805005C3712 /* SOCKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,26 +89,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16BA44BF231E4994005C3712 /* Headers */ = {
+		16BA44CF231E5805005C3712 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16BA44C8231E4994005C3712 /* SOCKit.h in Headers */,
-				16BA44CD231E4AB9005C3712 /* SOCPattern.h in Headers */,
+				16BA44DC231E5822005C3712 /* SOCKit.h in Headers */,
+				16BA44DD231E5824005C3712 /* SOCPattern.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		16BA44C3231E4994005C3712 /* SOCKit */ = {
+		16BA44D3231E5805005C3712 /* SOCKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16BA44CB231E4994005C3712 /* Build configuration list for PBXNativeTarget "SOCKit" */;
+			buildConfigurationList = 16BA44D9231E5805005C3712 /* Build configuration list for PBXNativeTarget "SOCKit" */;
 			buildPhases = (
-				16BA44BF231E4994005C3712 /* Headers */,
-				16BA44C0231E4994005C3712 /* Sources */,
-				16BA44C1231E4994005C3712 /* Frameworks */,
-				16BA44C2231E4994005C3712 /* Resources */,
+				16BA44CF231E5805005C3712 /* Headers */,
+				16BA44D0231E5805005C3712 /* Sources */,
+				16BA44D1231E5805005C3712 /* Frameworks */,
+				16BA44D2231E5805005C3712 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -108,7 +116,7 @@
 			);
 			name = SOCKit;
 			productName = SOCKit;
-			productReference = 16BA44C4231E4994005C3712 /* SOCKit.framework */;
+			productReference = 16BA44D4231E5805005C3712 /* SOCKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FE0935E41E8031F10092BF67 /* SOCKit iOS Tests */ = {
@@ -137,7 +145,7 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = NimbusKit;
 				TargetAttributes = {
-					16BA44C3231E4994005C3712 = {
+					16BA44D3231E5805005C3712 = {
 						CreatedOnToolsVersion = 10.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -160,14 +168,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16BA44C3231E4994005C3712 /* SOCKit */,
+				16BA44D3231E5805005C3712 /* SOCKit */,
 				FE0935E41E8031F10092BF67 /* SOCKit iOS Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16BA44C2231E4994005C3712 /* Resources */ = {
+		16BA44D2231E5805005C3712 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,11 +192,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16BA44C0231E4994005C3712 /* Sources */ = {
+		16BA44D0231E5805005C3712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16BA44CC231E4A7D005C3712 /* SOCPattern.m in Sources */,
+				16BA44DE231E582A005C3712 /* SOCPattern.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +211,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		16BA44C9231E4994005C3712 /* Debug */ = {
+		16BA44DA231E5805005C3712 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -220,18 +228,18 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = info.nimbuskit.SOCKit;
+				PRODUCT_BUNDLE_IDENTIFIER = se.thefarm.SOCKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		16BA44CA231E4994005C3712 /* Release */ = {
+		16BA44DB231E5805005C3712 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -248,10 +256,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = info.nimbuskit.SOCKit;
+				PRODUCT_BUNDLE_IDENTIFIER = se.thefarm.SOCKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -397,11 +405,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16BA44CB231E4994005C3712 /* Build configuration list for PBXNativeTarget "SOCKit" */ = {
+		16BA44D9231E5805005C3712 /* Build configuration list for PBXNativeTarget "SOCKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16BA44C9231E4994005C3712 /* Debug */,
-				16BA44CA231E4994005C3712 /* Release */,
+				16BA44DA231E5805005C3712 /* Debug */,
+				16BA44DB231E5805005C3712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16BA44C3231E4994005C3712"
+               BlueprintIdentifier = "16BA44D3231E5805005C3712"
                BuildableName = "SOCKit.framework"
                BlueprintName = "SOCKit"
                ReferencedContainer = "container:SOCKit.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16BA44C3231E4994005C3712"
+            BlueprintIdentifier = "16BA44D3231E5805005C3712"
             BuildableName = "SOCKit.framework"
             BlueprintName = "SOCKit"
             ReferencedContainer = "container:SOCKit.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16BA44C3231E4994005C3712"
+            BlueprintIdentifier = "16BA44D3231E5805005C3712"
             BuildableName = "SOCKit.framework"
             BlueprintName = "SOCKit"
             ReferencedContainer = "container:SOCKit.xcodeproj">
