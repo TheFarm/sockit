@@ -14,17 +14,12 @@
 // limitations under the License.
 //
 
-#ifdef NIMBUSKIT_FRAMEWORK
-  #import <NimbusKit/SOCKit.h>
-#else
-  #import "SOCKit.h"
-#endif
+#import <UIKit/UIKit.h>
 
-#import <Foundation/Foundation.h>
+//! Project version number for SOCKit.
+FOUNDATION_EXPORT double SOCKitVersionNumber;
 
-/**
- * @defgroup NimbusSockit Nimbus Sockit
- *
- * <div id="github" feature="sockit"></div>
- *
- */
+//! Project version string for SOCKit.
+FOUNDATION_EXPORT const unsigned char SOCKitVersionString[];
+
+#import <SOCKit/SOCPattern.h>

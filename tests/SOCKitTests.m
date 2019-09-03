@@ -17,7 +17,7 @@
 #import <XCTest/XCTest.h>
 #import <QuartzCore/QuartzCore.h>
 
-#import "SOCKit.h"
+#import "SOCPattern.h"
 
 typedef void (^SimpleBlock)(void);
 NSString *sockitBetterURLEncodeString(NSString *unencodedString);

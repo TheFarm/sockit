@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "SOCKit.h"
+#import "SOCPattern.h"
 
 #import <objc/runtime.h>
 #import <assert.h>

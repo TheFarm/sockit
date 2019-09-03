@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE0935CB1E8030B60092BF67"
+               BlueprintIdentifier = "16BA44C3231E4994005C3712"
                BuildableName = "SOCKit.framework"
-               BlueprintName = "SOCKit iOS"
+               BlueprintName = "SOCKit"
                ReferencedContainer = "container:SOCKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE0935E41E8031F10092BF67"
-               BuildableName = "SOCKit.xctest"
-               BlueprintName = "SOCKit iOS Tests"
-               ReferencedContainer = "container:SOCKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE0935CB1E8030B60092BF67"
-            BuildableName = "SOCKit.framework"
-            BlueprintName = "SOCKit iOS"
-            ReferencedContainer = "container:SOCKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE0935CB1E8030B60092BF67"
+            BlueprintIdentifier = "16BA44C3231E4994005C3712"
             BuildableName = "SOCKit.framework"
-            BlueprintName = "SOCKit iOS"
+            BlueprintName = "SOCKit"
             ReferencedContainer = "container:SOCKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE0935CB1E8030B60092BF67"
+            BlueprintIdentifier = "16BA44C3231E4994005C3712"
             BuildableName = "SOCKit.framework"
-            BlueprintName = "SOCKit iOS"
+            BlueprintName = "SOCKit"
             ReferencedContainer = "container:SOCKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
